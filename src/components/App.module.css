@@ -1,0 +1,7 @@
+.profile {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+
+  background-color: rgb(226, 235, 238);
+}
