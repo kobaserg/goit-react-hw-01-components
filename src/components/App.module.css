@@ -1,6 +1,8 @@
-.profile {
+.app {
   display: flex;
-  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
   padding: 50px;
 
   background-color: rgb(226, 235, 238);

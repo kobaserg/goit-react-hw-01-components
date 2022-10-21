@@ -1,0 +1,51 @@
+.table {
+  margin-top: 40px;
+  table-layout: fixed;
+  width: 600px;
+  border: none;
+  border-collapse: collapse;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.table_title {
+  height: 40px;
+  background-color: rgb(56, 195, 217);
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  color: whitesmoke;
+}
+
+.table_title_th {
+  border-right: 1px solid #ddd;
+}
+
+.table_row {
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.table_row:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.table_row:nth-child(even) {
+  background-color: whitesmoke;
+}
+
+.table_td {
+  border-right: 1px solid #ddd;
+}
+
+.table_td:last-child {
+  border-right: none;
+}
+
+.table_td_type {
+  text-transform: capitalize;
+}

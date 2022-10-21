@@ -1,0 +1,33 @@
+.item {
+  display: flex;
+  align-items: center;
+  width: 280px;
+  height: 70px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  background-color: whitesmoke;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.item:last-child {
+  margin-bottom: 0;
+}
+
+.status {
+  padding-left: 10px;
+  width: 30px;
+  font-size: 26px;
+}
+
+.avatar {
+  background-color: brown;
+  border-radius: 5px;
+}
+
+.name {
+  margin-left: 10px;
+  font-size: 24px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.8);
+}
