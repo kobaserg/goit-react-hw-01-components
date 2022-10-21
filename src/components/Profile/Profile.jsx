@@ -2,8 +2,7 @@ import css from './Profile.module.css';
 import PropTypes from 'prop-types';
 
 export const Profile = ({ username, tag, location, avatar, stats }) => {
-  const  v = stats.views / 1000;
-  const views = v.toLocaleString();
+  const views = (stats.views / 1000).toLocaleString();
   
   return (
     <div className={css.wrapper}>
