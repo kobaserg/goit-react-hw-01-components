@@ -18,7 +18,12 @@
 }
 
 .table_title_th {
+  padding: 0;
   border-right: 1px solid #ddd;
+}
+
+.table_title_th:last-child {
+  border-right: none;
 }
 
 .table_row {
@@ -39,6 +44,7 @@
 }
 
 .table_td {
+  padding: 0;
   border-right: 1px solid #ddd;
 }
 
