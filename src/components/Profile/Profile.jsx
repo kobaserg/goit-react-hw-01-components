@@ -2,6 +2,9 @@ import css from './Profile.module.css';
 import PropTypes from 'prop-types';
 
 export const Profile = ({ username, tag, location, avatar, stats }) => {
+  const  v = stats.views / 1000;
+  const views = v.toLocaleString();
+  
   return (
     <div className={css.wrapper}>
       <div className={css.description}>
@@ -18,7 +21,7 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
         </li>
         <li className={css.profile_link}>
           <span className={css.label}>Views</span>
-          <span className={css.quantty}>{stats.views}</span>
+          <span className={css.quantty}>{views}</span>
         </li>
         <li className={css.profile_link}>
           <span className={css.label}>Likes</span>
